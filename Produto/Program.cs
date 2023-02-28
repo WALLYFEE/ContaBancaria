@@ -7,35 +7,35 @@ namespace Produto
     {
         static void Main(string[] args)
         {
-            ContaBancaria contaBancaria = new ContaBancaria();
-            ContaBancaria contaBancaria1 = new ContaBancaria(0.0);
+            ContaBancaria contaBancaria;
 
 
             Console.Write("Qual o seu nome: ");
-            contaBancaria.NomeTitular = Console.ReadLine();
+            string Titular = Console.ReadLine();
 
             Console.Write("Número conta: ");
-            contaBancaria.NumeroConta = int.Parse(Console.ReadLine());
+            int NumConta = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Haverá depósito inicial: (S/N)");
-            string Resposta = Console.ReadLine();
+            char Resposta = char.Parse(Console.ReadLine()) ;
 
+            double quantia = 0;
 
-
-            if (Resposta == "S" || Resposta == "s")
+            if (Resposta == 'S' || Resposta == 's')
             {
                 Console.Write("Valor do depósito: ");
-                contaBancaria.Saldo = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                quantia = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                contaBancaria = new ContaBancaria (Titular, NumConta, quantia);
             }
             else 
             {
-                contaBancaria.Saldo = contaBancaria1.Saldo;
+                contaBancaria = new ContaBancaria(Titular, NumConta);
             }
 
             Console.WriteLine(contaBancaria);
 
             Console.Write("Depósito: ");
-            double quantia = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            quantia = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             contaBancaria.Deposito(quantia);
 
             Console.WriteLine("Dados atualizados: " + contaBancaria);

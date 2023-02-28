@@ -5,15 +5,17 @@ namespace Produto
 {
     internal class ContaBancaria
     {
-        public string NomeTitular { get; set; }
+        public string NomeTitular { get; private set; }
         public int NumeroConta { get; set; }
-        public double Saldo { get; set; }
+        public double Saldo { get; private set; }
 
-        public ContaBancaria()
+        public ContaBancaria(string nomeTitular, int numeroConta)
         {
+            NomeTitular = nomeTitular;
+            NumeroConta = numeroConta;
         }
 
-        public ContaBancaria(double saldo)
+        public ContaBancaria(string nomeTitular, int numeroConta, double saldo) : this(nomeTitular, numeroConta)
         {
             Saldo = saldo;
         }
@@ -22,7 +24,7 @@ namespace Produto
         {
             Saldo += deposito;
         }
-        public void Saque( double saque)
+        public void Saque(double saque)
         {
             Saldo = Saldo - 5 - saque;
         }
