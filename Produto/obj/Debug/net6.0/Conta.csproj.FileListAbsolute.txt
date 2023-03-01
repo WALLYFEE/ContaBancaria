@@ -1,0 +1,15 @@
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\bin\Debug\net6.0\Conta.exe
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\bin\Debug\net6.0\Conta.deps.json
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\bin\Debug\net6.0\Conta.runtimeconfig.json
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\bin\Debug\net6.0\Conta.dll
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\bin\Debug\net6.0\Conta.pdb
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\obj\Debug\net6.0\Conta.csproj.AssemblyReference.cache
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\obj\Debug\net6.0\Conta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\obj\Debug\net6.0\Conta.AssemblyInfoInputs.cache
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\obj\Debug\net6.0\Conta.AssemblyInfo.cs
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\obj\Debug\net6.0\Conta.csproj.CoreCompileInputs.cache
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\obj\Debug\net6.0\Conta.dll
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\obj\Debug\net6.0\refint\Conta.dll
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\obj\Debug\net6.0\Conta.pdb
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\obj\Debug\net6.0\Conta.genruntimeconfig.cache
+C:\Users\escrit0601\Desktop\Diversos\CursoC#\Produto\Produto\obj\Debug\net6.0\ref\Conta.dll

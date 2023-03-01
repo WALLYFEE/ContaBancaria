@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\escrit0601\\Desktop\\Diversos\\CursoC#\\Produto\\Produto\\Produto.csproj",
-      "projectName": "Produto",
-      "projectPath": "C:\\Users\\escrit0601\\Desktop\\Diversos\\CursoC#\\Produto\\Produto\\Produto.csproj",
+      "projectUniqueName": "C:\\Users\\escrit0601\\Desktop\\Diversos\\CursoC#\\Produto\\Produto\\Conta.csproj",
+      "projectName": "Conta",
+      "projectPath": "C:\\Users\\escrit0601\\Desktop\\Diversos\\CursoC#\\Produto\\Produto\\Conta.csproj",
       "packagesPath": "C:\\Users\\escrit0601\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\escrit0601\\Desktop\\Diversos\\CursoC#\\Produto\\Produto\\obj\\",
       "projectStyle": "PackageReference",
